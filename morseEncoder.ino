@@ -11,7 +11,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(LED, OUTPUT);
   pinMode(spaceLed, OUTPUT);
-  pinMode(pauseLED, OUTPUT);
+  pinMode(pauseLed, OUTPUT);
   Serial.begin(9600);
  Serial.println("Enter shit:");
 }
