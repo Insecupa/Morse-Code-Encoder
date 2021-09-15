@@ -10,6 +10,8 @@ char ch;
 void setup() {
   // put your setup code here, to run once:
   pinMode(LED, OUTPUT);
+  pinMode(spaceLed, OUTPUT);
+  pinMode(pauseLED, OUTPUT);
   Serial.begin(9600);
  Serial.println("Enter shit:");
 }
